@@ -1,0 +1,162 @@
+
+
+/* Icons вверху страницы */
+.icons{
+    display: flex;    
+    justify-content: space-between;
+}
+
+.icons i{
+    margin-top: 20px;
+    color: #FF6433;
+    font-size: 2.5em; 
+    
+}
+
+
+
+
+.wrap{
+    border-radius: 20px;
+    /* width: 650px; */
+    height: 500px;
+    margin-top: 50px;
+    /* margin-left: 10px; */
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, rgba(255, 61, 0, 0.47) 20%);
+}
+.wrap h5{
+    text-align: center;
+    justify-content: center;
+    padding-top: 75px;
+    font-size: 150px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.29px;
+    
+}
+.wrap button{
+    position: absolute; 
+    top: 450px; 
+    left: 650px;
+    border-radius: 15px;
+    background: #FFF;
+    border: none;
+    width: 230px;
+    height: 70px;
+    justify-content: center;
+    display: flex;
+           
+}
+.wrap button i{
+    background: var(--Linear, linear-gradient(95deg, #F89B29 7.84%, #FF0F7B 112.76%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 20px;
+    margin-right: 5px;
+    font-size: 23px; 
+}
+.wrap button p{
+    background: var(--Linear, linear-gradient(95deg, #F89B29 7.84%, #FF0F7B 112.76%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Poppins;
+    font-size: 23px; 
+    margin-top: 15px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: 10px;
+    
+}
+.btn-primary{
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+    background: rgba(255, 100, 51, 0.15);
+    box-shadow: 0px 5px 11px 0px rgba(255, 100, 51, 0.29);
+    border: none;
+    color: #FF6433;
+    font-family: Poppins;
+    font-size: 20px;   
+      
+}
+.btn-primary:hover{
+    background: #FF6433;
+    color: #FFF;
+
+}
+
+.btn-secondary{
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+    background: rgba(255, 100, 51, 0.15);
+    box-shadow: 0px 5px 11px 0px rgba(255, 100, 51, 0.29);
+    border: none;
+    margin-right: 10px;
+    color: #FF6433;
+    font-family: Poppins;
+    font-size: 20px;
+    
+}
+.btn-secondary:hover{
+    background: #FF6433;
+    color: #FFF;
+}
+
+.items li{
+   
+    text-decoration: none;
+    background: rgba(255, 197, 164, 0.15);
+    list-style-type: none;    
+    margin-bottom: 8px;
+    margin-left: -15px; 
+    padding: 10px;
+    padding-left: 15px;
+    border: 1px solid #efe0e0; /* Рамочка вокруг ингредиента */
+    border-radius: 12px; 
+    color: #FF5C00;
+    text-shadow: 0px 2px 12px rgba(255, 92, 0, 0.60);
+    font-family: Poppins;
+    font-size: 13px;
+}
+.item ul{
+    margin-top: 250px;
+}
+
+
+ 
+
+
+
+     
+
+
+
+@media (max-width:768px){
+      .btn-group{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
+

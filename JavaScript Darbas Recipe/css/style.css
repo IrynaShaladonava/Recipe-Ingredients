@@ -1,0 +1,170 @@
+/* Icons вверху страницы */
+.icons{
+    display: flex;    
+    justify-content: space-between;
+    margin: 10px;
+}
+.icons i{
+    margin-top: 20px;
+    color: #FF6433;
+    font-size: 2.5em;
+}
+
+/* Buttons */
+.btn-group{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    border-radius: 6px;
+    font-family: Poppins;
+    font-size: 14px;
+    letter-spacing: 0.14px;
+    margin-bottom: 60px; 
+}
+
+.btn-group a{
+    background: rgba(254, 120, 78, 0.30);
+    color: #FE784E;
+    border: none;
+    box-shadow: 0px 5px 11px 0px rgba(254, 120, 78, 0.28);
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/* Buttons при нажатии */
+.btn-group a:hover{
+    background-color: #FE784E;
+
+}
+
+/* Cards */
+article{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.card{
+    margin-bottom: 20px;
+    height: 320px;
+    width: 400px;
+    border: none;
+    border-radius: 21px;
+    background: #FFF;
+    box-shadow: 0px 4px 15px 0px rgba(95, 95, 95, 0.28);    
+}
+.card img{
+    border-top-left-radius: 21px;
+    border-top-right-radius: 21px;      
+}
+.card-img-top {
+    max-width: 100%;
+    height: 200px;
+}
+.card-body h5{
+    font-family: Poppins;
+    color: #1D1D1D;
+    font-size: 20px;
+    width: 250px;
+}
+
+.card-text{
+    font-family: Poppins;
+    color: #5F5F5F;
+    padding-top: 10px;
+    font-size: 10px;
+}
+/* Строка поиска */
+.search-box input{
+    border: none;
+    background: #F8F8F8;
+    font-family: Roboto;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.search-box{
+    height: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 22px;
+    background: #F8F8F8;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.10);
+       
+}
+/* Икона строки поиска */
+.search-box i{
+    padding-top: 10px;
+    padding-left: 20px;
+    color: #B0B0B0;
+}
+/* Category */
+h3{
+    margin-top: 75px;
+    color: #752A00;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+}
+
+@media (max-width:768px){
+      .btn-group{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.fa-heart{
+    position: absolute; 
+    left: 320px;
+    top: 20px;
+    font-size: 40px;
+    color: #F89B29;
+    filter: drop-shadow(0px 0px 14px #000);
+   
+}
+
+.fa-star{
+    position: absolute;
+}
+.reit{
+    display: flex;
+    justify-content: space-between;
+}
+.reit i{
+    position: absolute;
+    left: 330px;
+    top: 220px;
+    font-size: 25px;
+    color: #FFBA34;
+}
+.reiting{
+    position: absolute;
+    left: 335px;
+    top: 250px;
+    font-size: 15px ;
+    color: #979797;
+}
+
+/* Убираем рамку вокруг строки поиска */
+.search-box input.search {
+    border: none;
+    outline: none;
+   
+}
+
+/* Убираем стандартный стиль кнопки поиска */
+.search-box a.search-btn {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+

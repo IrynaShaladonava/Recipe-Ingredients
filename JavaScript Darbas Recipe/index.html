@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe task from Iryna Shaladonava</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/eff6eaaba4.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+    <section>
+        <div class="container">
+            <!-- Icons (navigation) -->
+            <div class="icons">
+            <i class="fa-solid fa-bars-staggered"></i>
+            <i class="fa-solid fa-bell"></i></div>
+            <!-- Search bar -->
+            <div class="search-box">
+                <a class="search-btn" href="#">
+                    <i class="fa fa-search" aria-hidden="true"></i></a>
+                <input type="text" name="" class="search" placeholder="Search for a recipe..."/>                
+            </div>
+            <!-- Category and buttons -->
+            <h3>Category</h3>
+            <div id="searchedCategories" class="btn-group">
+                <div class="All">
+                <a href="#" class="btn btn-danger me-2 rounded" aria-current="page">All</a></div>
+                <div class="Breakfast">
+                <a href="#" class="btn btn-danger me-2 rounded">Breakfast</a></div>
+                <div class="IndianFood">
+                <a href="#" class="btn btn-danger me-2 rounded">Indian Food</a></div>
+                <div class="JapaneseFood">
+                <a href="#" class="btn btn-danger rounded">Japanese Food</a></div>
+              </div>
+     </section>
+     <!-- Cards where will writen meals (and will changed with JS) -->
+     <article class="container">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card" onclick="showRecipeDetails(this)">
+                <img src="img/Veg-Tofu-Biryani 1.png" class="card-img-top" alt="..."><i class="fa-regular fa-heart"></i>
+                <div class="card-body">
+                  <div class="reit">
+                  <h5 class="card-title">Vegetable Biryani With Baked Tofu</h5>
+                  <i class="fa-solid fa-star"></i>
+                  <p class="reiting">4.5</p></div>
+                  <p class="card-text">25 min • Indian cuisine</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" onclick="showRecipeDetails(this)">
+                <img src="img/617f5d93003c43a992244eff2dd52b6d 1.png" class="card-img-top" alt="..."><i class="fa-regular fa-heart"></i>
+                <div class="card-body">
+                  <div class="reit">
+                  <h5 class="card-title">Dal Tadka (Tadkewali Dal)</h5>
+                  <i class="fa-solid fa-star"></i>
+                  <p class="reiting">4.4</p>
+                </div>
+                  <p class="card-text">25 min • Indian cuisine</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" onclick="showRecipeDetails(this)">
+                <img src="img/Butter-Chicken-Recipe-Easy-Chicken-Recipes-Your-Food-Fantasy 1.png" class="card-img-top" alt="..."><i class="fa-regular fa-heart"></i>
+                <div class="card-body">
+                  <div class="reit">
+                  <h5 class="card-title">Butter Chicken</h5>
+                  <i class="fa-solid fa-star"></i>
+                  <p class="reiting">4.9</p>
+                </div>
+                  <br>
+                  <p class="card-text">45 min • Indian cuisine</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" onclick="showRecipeDetails(this)">
+                <img src="img/dd3ff07f5205426d92c71987b9147e51 1.png" class="card-img-top" alt="..."><i class="fa-regular fa-heart"></i>
+                <div class="card-body">
+                  <div class="reit">
+                  <h5 class="card-title">Tandoori Chicken</h5>
+                  <i class="fa-solid fa-star"></i>
+                  <p class="reiting">4.2</p>
+                </div>
+                  <br>
+                  <p class="card-text">20 min • Indian cuisine</p>
+                </div>
+              </div>
+            </div>
+          </div>
+     </article>
+    </main>
+</div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="JavaScript/style.js"></script>
+</body>
+</html>
